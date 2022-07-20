@@ -14,6 +14,8 @@
 		BD60B45A2886F75B00D42A1D /* Soteria.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD60B4582886F75B00D42A1D /* Soteria.xcdatamodeld */; };
 		BD60B45C2886F75C00D42A1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD60B45B2886F75C00D42A1D /* Assets.xcassets */; };
 		BD60B45F2886F75C00D42A1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD60B45D2886F75C00D42A1D /* LaunchScreen.storyboard */; };
+		BDAE04D028883CC00025D0C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDAE04CF28883CC00025D0C9 /* GoogleService-Info.plist */; };
+		BDAE04D228883D030025D0C9 /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAE04D128883D030025D0C9 /* SignInController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		BD60B45B2886F75C00D42A1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD60B45E2886F75C00D42A1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD60B4602886F75C00D42A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDAE04CF28883CC00025D0C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BDAE04D128883D030025D0C9 /* SignInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +62,11 @@
 		BD60B44E2886F75B00D42A1D /* Soteria */ = {
 			isa = PBXGroup;
 			children = (
+				BDAE04CF28883CC00025D0C9 /* GoogleService-Info.plist */,
 				BD60B44F2886F75B00D42A1D /* AppDelegate.swift */,
 				BD60B4512886F75B00D42A1D /* SceneDelegate.swift */,
 				BD60B4532886F75B00D42A1D /* ViewController.swift */,
+				BDAE04D128883D030025D0C9 /* SignInController.swift */,
 				BD60B4552886F75B00D42A1D /* Main.storyboard */,
 				BD60B45B2886F75C00D42A1D /* Assets.xcassets */,
 				BD60B45D2886F75C00D42A1D /* LaunchScreen.storyboard */,
@@ -129,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD60B45F2886F75C00D42A1D /* LaunchScreen.storyboard in Resources */,
+				BDAE04D028883CC00025D0C9 /* GoogleService-Info.plist in Resources */,
 				BD60B45C2886F75C00D42A1D /* Assets.xcassets in Resources */,
 				BD60B4572886F75B00D42A1D /* Main.storyboard in Resources */,
 			);
@@ -144,6 +151,7 @@
 				BD60B4542886F75B00D42A1D /* ViewController.swift in Sources */,
 				BD60B4502886F75B00D42A1D /* AppDelegate.swift in Sources */,
 				BD60B4522886F75B00D42A1D /* SceneDelegate.swift in Sources */,
+				BDAE04D228883D030025D0C9 /* SignInController.swift in Sources */,
 				BD60B45A2886F75B00D42A1D /* Soteria.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FZG35NA3MV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Soteria/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -318,6 +327,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FZG35NA3MV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Soteria/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
