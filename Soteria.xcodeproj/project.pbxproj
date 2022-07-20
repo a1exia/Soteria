@@ -14,7 +14,6 @@
 		BD60B45A2886F75B00D42A1D /* Soteria.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD60B4582886F75B00D42A1D /* Soteria.xcdatamodeld */; };
 		BD60B45C2886F75C00D42A1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD60B45B2886F75C00D42A1D /* Assets.xcassets */; };
 		BD60B45F2886F75C00D42A1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD60B45D2886F75C00D42A1D /* LaunchScreen.storyboard */; };
-		BDAE04D028883CC00025D0C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDAE04CF28883CC00025D0C9 /* GoogleService-Info.plist */; };
 		BDAE04D228883D030025D0C9 /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAE04D128883D030025D0C9 /* SignInController.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +27,6 @@
 		BD60B45B2886F75C00D42A1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD60B45E2886F75C00D42A1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD60B4602886F75C00D42A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BDAE04CF28883CC00025D0C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BDAE04D128883D030025D0C9 /* SignInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,7 +60,6 @@
 		BD60B44E2886F75B00D42A1D /* Soteria */ = {
 			isa = PBXGroup;
 			children = (
-				BDAE04CF28883CC00025D0C9 /* GoogleService-Info.plist */,
 				BD60B44F2886F75B00D42A1D /* AppDelegate.swift */,
 				BD60B4512886F75B00D42A1D /* SceneDelegate.swift */,
 				BD60B4532886F75B00D42A1D /* ViewController.swift */,
@@ -135,7 +132,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD60B45F2886F75C00D42A1D /* LaunchScreen.storyboard in Resources */,
-				BDAE04D028883CC00025D0C9 /* GoogleService-Info.plist in Resources */,
 				BD60B45C2886F75C00D42A1D /* Assets.xcassets in Resources */,
 				BD60B4572886F75B00D42A1D /* Main.storyboard in Resources */,
 			);
@@ -297,6 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FZG35NA3MV;
@@ -314,6 +311,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = alexia.Soteria;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -325,6 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FZG35NA3MV;
@@ -342,6 +341,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = alexia.Soteria;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
