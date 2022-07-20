@@ -7,15 +7,31 @@
 
 import UIKit
 
+
+//sign in button import
+import AuthenticationServices
 class SignInController: UIViewController {
+    
+    private let signInButton =  ASAuthorizationAppleIDButton()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        view.addSubview(signInButton)
     }
     
-
+    
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        signInButton.frame = CGRect(x: 0, y: 0, width: 250, height: 50)
+        signInButton.center = view.center
+        
+            
+        }
+    }
     /*
     // MARK: - Navigation
 
@@ -26,4 +42,3 @@ class SignInController: UIViewController {
     }
     */
 
-}
