@@ -14,6 +14,7 @@
 		BD60B45A2886F75B00D42A1D /* Soteria.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD60B4582886F75B00D42A1D /* Soteria.xcdatamodeld */; };
 		BD60B45C2886F75C00D42A1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD60B45B2886F75C00D42A1D /* Assets.xcassets */; };
 		BD60B45F2886F75C00D42A1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD60B45D2886F75C00D42A1D /* LaunchScreen.storyboard */; };
+		BD990B51288872C100B9236A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD990B50288872C100B9236A /* MapKit.framework */; };
 		BDAE04D228883D030025D0C9 /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAE04D128883D030025D0C9 /* SignInController.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		BD60B45B2886F75C00D42A1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD60B45E2886F75C00D42A1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD60B4602886F75C00D42A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD990B50288872C100B9236A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		BDAE04D128883D030025D0C9 /* SignInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -35,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD990B51288872C100B9236A /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +49,7 @@
 			children = (
 				BD60B44E2886F75B00D42A1D /* Soteria */,
 				BD60B44D2886F75B00D42A1D /* Products */,
+				BD990B4F288872C100B9236A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +75,14 @@
 				BD60B4582886F75B00D42A1D /* Soteria.xcdatamodeld */,
 			);
 			path = Soteria;
+			sourceTree = "<group>";
+		};
+		BD990B4F288872C100B9236A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD990B50288872C100B9236A /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +311,8 @@
 				DEVELOPMENT_TEAM = FZG35NA3MV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Soteria/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Please allow this app to use your location";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Please allow this app to use your location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -329,6 +343,8 @@
 				DEVELOPMENT_TEAM = FZG35NA3MV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Soteria/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Please allow this app to use your location";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Please allow this app to use your location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
